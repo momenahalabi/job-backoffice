@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28bc5c8cf7325588ac72a54ec54ddcea",
+    "content-hash": "ea0bac02ec24dae278daf227fa0d5d3b",
     "packages": [
         {
             "name": "brick/math",
@@ -1055,15 +1055,22 @@
         {
             "name": "job/shared",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/momenahalabi/job-shared.git",
+                "reference": "79d4f419d04f9f3a640e42db8d214973dac64b7f"
+            },
             "dist": {
-                "type": "path",
-                "url": "../job-shared",
-                "reference": "647f4f876e215302dcfad06b1884320939f31b34"
+                "type": "zip",
+                "url": "https://api.github.com/repos/momenahalabi/job-shared/zipball/79d4f419d04f9f3a640e42db8d214973dac64b7f",
+                "reference": "79d4f419d04f9f3a640e42db8d214973dac64b7f",
+                "shasum": ""
             },
             "require": {
                 "laravel/framework": "^12.0",
                 "php": "^8.2"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1080,9 +1087,11 @@
                 }
             ],
             "description": "This is a shared package to have shared logic of models",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/momenahalabi/job-shared/tree/main",
+                "issues": "https://github.com/momenahalabi/job-shared/issues"
+            },
+            "time": "2026-03-09T13:36:38+00:00"
         },
         {
             "name": "laravel/framework",
