@@ -1,0 +1,10 @@
+{
+    "agents": [
+        "gemini"
+    ],
+    "guidelines": true,
+    "skills": [
+        "pest-testing",
+        "tailwindcss-development"
+    ]
+}
